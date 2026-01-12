@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linker | Project Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            margin-bottom: 30px;
+            opacity: 0.85;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 30px 20px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.25);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Project Linker</h1>
+    <p>Your mission control for this project</p>
+
+    <div class="grid">
+        <a class="card" href="https://docs.google.com" target="_blank">📄 Project Docs</a>
+        <a class="card" href="https://github.com" target="_blank">🧑‍💻 GitHub Repo</a>
+        <a class="card" href="https://figma.com" target="_blank">🎨 Figma Design</a>
+        <a class="card" href="https://drive.google.com" target="_blank">📁 Drive Folder</a>
+        <a class="card" href="https://slack.com" target="_blank">💬 Slack Channel</a>
+        <a class="card" href="https://calendar.google.com" target="_blank">📅 Project Calendar</a>
+    </div>
+</div>
+
+</body>
+</html>
